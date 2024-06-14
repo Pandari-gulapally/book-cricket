@@ -73,7 +73,7 @@ function PlayBoard({ player1, player2, overs }) {
       console.log('player2 score',player2Score);
   
       if(player1Score === player2Score){
-        result = `Match is Drawn`;
+        result = `Match Drawn`;
       } else if(player1Score > player2Score) {
         result = `${player1} won the match`;
       } else {
